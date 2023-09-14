@@ -154,11 +154,11 @@ class MainActivity : AppCompatActivity() {
                     if (nums > 0) {
                         nums -= 3
                         if (nums<0) {
-                            Toast.makeText(this, "Cant go negative", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Cant go negative", Toast.LENGTH_SHORT).show();
                             nums=0
 
                         }else{
-                            Toast.makeText(this, nums.toString(), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, nums.toString(), Toast.LENGTH_SHORT).show();
 
                         }
                         Toast.makeText(this, nums.toString(), Toast.LENGTH_SHORT).show()
